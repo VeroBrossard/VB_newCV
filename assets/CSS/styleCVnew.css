@@ -1,0 +1,93 @@
+.parallax {
+  /* la dernière image de la page */
+  background-image: url("../images/img_parallax_bckgd.jpg");
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;      /* fixe l'img de fond */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed //      valeur initiale max-device-width: 1365px   */
+/* 
+@media only screen and (max-device-width: 760px) { 
+.parallax {
+    background-attachment: scroll;
+  }
+} */
+/* je limite l'effet parallax aux écrans >= à 760px (grandes tablettes) ex valeur :1365*/
+
+
+.div_{
+  font-size:28px;
+  text-align: justify;
+  padding: 50px 30px;
+}
+.div1{
+  background-color:red;
+  
+}
+.div2{
+  background-color:gold;
+  /* font-size:medium;  */
+}
+.div3{
+  color: aliceblue;
+  background-color:blue;
+  /* height:300px;
+  font-size:medium; 
+  padding-left: 150px;  */
+}
+
+.img1 {
+  background-image: url("../images/img_parallax1.jpg");
+}
+.img2 {
+  background-image: url("../images/img_parallax2.jpg");
+}
+.img3 {
+  background-image: url("../images/img_parallax3.jpg");
+}
+
+/* article{
+  background-color:lightgray;
+  padding: 20px;
+  color:darkgreen ;
+} */
+/* header{
+  text-align: center;
+  color:rgb(132, 0, 255)
+  } */
+  /*   ****   css sticky bar  ****   */
+
+
+  .sticky_div{
+    text-align: center; 
+    padding: 20px 0px;
+    /* background-color:aquamarine; */
+   }
+   
+   .span_href_exo {
+     /* min-width: 10%; */
+     padding: 15px;
+     /* color: white;
+     font-size: 15px; */
+   }
+   .MyInfo{
+     background-color:rgb(224, 138, 25);
+     color :whitesmoke;
+   }
+
+   		/* [class^='nav'] {
+      border: 2px dotted orange;
+    } */
+    
+    /*  ********* Style the submit button */
+/* input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  width: 25%;
+} */

@@ -1,0 +1,118 @@
+body
+{
+  color: slateblue;
+  width: 800px; height: auto; 
+  margin: auto; 
+  padding-left: 120px; 
+  background: url(../images/bordCV.png) rgb(216, 220, 223) fixed repeat-y;
+}
+/* mise en place d'une police personnelle */
+@font-face 
+{
+  font-family:'MyWebFontGerman';
+  src: url('../FontsCV/rothenbg-webfont.eot');  /* IE9 Compat Modes */
+  src: url('../FontsCV/rothenbg-webfont.eot?#iefix') format('embedded-opentype'),   /* IE6-IE8 */
+       /*  url('rothenbg-webfont.woff2') format('woff2'),  */
+       url('../FontsCV/rothenbg-webfont.woff') format('woff'),  /* Modern Browsers ok moi*/ 
+       url('../FontsCV/rothenbg-webfont.ttf') format('truetype'),  /* Safari, Android, iOS ok moi*/
+       url('../FontsCV/rothenbg-webfont.svg#MyWebFontGerman') format('svg');  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face 
+{
+  font-family:'MyWebFont';
+  src: url('../FontsCV/Kingthings_Xstitch-webfont.eot');  /* IE9 Compat Modes */
+  src: url('../FontsCV/Kingthings_Xstitch-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       /*  url('../FontsCV/Kingthings_Xstitch-webfont.woff2') format('woff2'),  */
+       url('../FontsCV/Kingthings_Xstitch-webfont.woff') format('woff'),  /* Modern Browsers */ 
+       url('../FontsCV/Kingthings_Xstitch-webfont.ttf') format('truetype'),  /* Safari, Android, iOS */
+       url('../FontsCV/Kingthings_Xstitch-webfont.svg#MyWebFont') format('svg');  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+div
+{
+  color:forestgreen;
+  border: 1px green ridge;
+  border-radius: 20px;
+  padding: 15px 10px 15px 20px;
+  margin-left: 25px;
+  background-size: 45px;
+}
+p
+{
+  border: 1px blue solid;
+  color : blue;
+  box-shadow: 3px 6px 3px grey;
+  background: url(../images/etoileVB.png) no-repeat bottom right;
+  width: 50%;
+}
+
+h1{
+  color: orangered;
+  font-family:'MyWebFont', Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+}
+h2, h3
+{
+  font-family: 'MyWebFontGerman', Arial, Helvetica, sans-serif;
+}
+{
+  color:orange;
+}
+
+/*  Style pour les liens  */
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+   font-size: larger;
+}
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;  /*Sous Google Chrome et Safari, l'effet ne se voit que si l'on appuie sur la touche Tab */
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée // on ne peut changer que la couleur */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}
+
+/* -----------  images flottantes ****  exemples  ----------  */
+.flottant_Gche
+{
+  float: left;
+}
+.flottant_Dte
+{
+  float: right;
+}
+.stop_float
+{
+  clear:both
+}
+
+/* -----------  text-decoration exemples  ----------  */
+.clignote
+{
+    text-decoration: blink; /*est censé clignoter */
+}
+.souligne
+{
+    text-decoration: underline;
+}
+.barre
+{
+    text-decoration: line-through;
+}
+.ligne_dessus
+{
+    text-decoration: overline;
+}
