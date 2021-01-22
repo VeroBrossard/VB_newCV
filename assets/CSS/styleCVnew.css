@@ -2,7 +2,8 @@
   /* la dernière image de la page */
   background-image: url("../images/img_parallax_bckgd.jpg");
   /* Set a specific height */
-  height: 500px;
+  height: 40em;
+
   
   /* Create the parallax scrolling effect */
   background-attachment: fixed;      /* fixe l'img de fond */
@@ -66,7 +67,7 @@
 
   .sticky_div{
     text-align: center; 
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     /* background-color:aquamarine; */
    }
    
